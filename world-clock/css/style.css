@@ -1,0 +1,69 @@
+body {
+  background-color: rgb(227, 244, 247);
+  font-family: "Readex Pro", sans-serif;
+}
+.container {
+  max-width: 600px;
+  background: rgb(249, 248, 237);
+  padding: 30px;
+  box-shadow: rgba(149, 157, 165, 0.18) 0px 8px 24px;
+  border-radius: 10px;
+  margin: 60px auto;
+}
+select {
+  background-color: #e3f4f7;
+  opacity: 0.6;
+  font-family: "Heebo", sans-serif;
+  border-style: solid;
+  border-color: #63bcce;
+  border-width: 5px;
+}
+.logo {
+  text-align: center;
+  font-size: 50px;
+}
+h1 {
+  text-align: center;
+  font-family: "Readex Pro", sans-serif;
+  font-size: 36px;
+}
+
+h2 {
+  margin: 0 0 10px;
+  font-size: 28px;
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 20px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+}
+.date {
+  color: #47828e;
+}
+.city:last-child {
+  border: none;
+}
+.time {
+  font-size: 43px;
+  font-weight: bold;
+}
+.time small {
+  font-size: 24px;
+  vertical-align: middle;
+  line-height: 48px;
+}
+select {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+footer {
+  text-align: center;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.6);
+}
