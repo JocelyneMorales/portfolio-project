@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --branding-color: #a30303;
+  --secondary-color: #f1e0e1;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -162,6 +162,18 @@ footer .social-links a {
 footer .social-links a:hover {
   color: white;
   background-color: var(--branding-color);
+}
+footer p a {
+  color: var(--branding-color);
+}
+
+.email {
+  font-size: 25px;
+  color: var(--branding-color);
+  text-decoration: none;
+}
+span {
+  color: var(--branding-color);
 }
 @media (max-width: 900px) {
   nav {
